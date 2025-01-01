@@ -67,7 +67,7 @@ const Header = () => {
             </nav>
 
             <div className="header-icons">
-                <a href="#" className="cart-icon" title="cart"><i className="fas fa-shopping-cart"></i></a>
+                <a href="#" className="cart-icon" title="login"><i className="fas fa-shopping-cart"></i></a>
                 <a href="#" className="user-icon" title="profile" onClick={toggleProfilePopup}><i className="fas fa-user"></i></a>
                 <a href="#" className="login-icon" title="login" id="login-icon" onClick={toggleLoginPopup}>
                     <i className="fas fa-sign-in-alt"></i>

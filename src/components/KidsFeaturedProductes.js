@@ -36,21 +36,21 @@ function FeaturedProducts() {
     };
 
     // Infinite scroll functionality
-    useEffect(() => {
-        const container = productsContainerRef.current;
+    // useEffect(() => {
+    //     const container = productsContainerRef.current;
 
-        const handleScroll = () => {
-            if (container.scrollLeft + container.offsetWidth >= container.scrollWidth - 1) {
-                container.scrollLeft = 0; // Reset to the start when we reach the end
-            }
-        };
+    //     const handleScroll = () => {
+    //         if (container.scrollLeft + container.offsetWidth >= container.scrollWidth - 1) {
+    //             container.scrollLeft = 0; // Reset to the start when we reach the end
+    //         }
+    //     };
 
-        container.addEventListener('scroll', handleScroll);
+    //     container.addEventListener('scroll', handleScroll);
 
-        return () => {
-            container.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
+    //     return () => {
+    //         container.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
 
     return (
         <section className="featured-products" id="featured-products">

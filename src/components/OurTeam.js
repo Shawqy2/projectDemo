@@ -7,7 +7,7 @@ const OurTeam = () => {
             <div className="team-container">
                 {/* Repeat this block for each team member */}
                 <div className="team-member">
-                    <img src="../images/TEAM.jpg" alt="Team Member 1" />
+                    <img src={`${process.env.PUBLIC_URL}/images/TEAM.jpg`} alt="Team Member 1" />
                     <h3>Shawqy Hussien</h3>
                     <p className="role">Front-End Developer</p>
                     <p className="description">
@@ -16,7 +16,8 @@ const OurTeam = () => {
                     <a href="#">Contact</a>
                 </div>
                 <div className="team-member">
-                    <img src="../images/TEAM.jpg" alt="Team Member 1" />
+                    <img src={`${process.env.PUBLIC_URL}/images/TEAM.jpg`} alt="Team Member 1" />
+
                     <h3>Shawqy Hussien</h3>
                     <p className="role">Front-End Developer</p>
                     <p className="description">
@@ -25,7 +26,7 @@ const OurTeam = () => {
                     <a href="#">Contact</a>
                 </div>
                 <div className="team-member">
-                    <img src="../images/TEAM.jpg" alt="Team Member 1" />
+                    <img src={`${process.env.PUBLIC_URL}/images/TEAM.jpg`} alt="Team Member 1" />
                     <h3>Shawqy Hussien</h3>
                     <p className="role">Front-End Developer</p>
                     <p className="description">
@@ -34,7 +35,8 @@ const OurTeam = () => {
                     <a href="#">Contact</a>
                 </div>
                 <div className="team-member">
-                    <img src="../images/TEAM.jpg" alt="Team Member 1" />
+                    <img src={`${process.env.PUBLIC_URL}/images/TEAM.jpg`} alt="Team Member 1" />
+
                     <h3>Shawqy Hussien</h3>
                     <p className="role">Front-End Developer</p>
                     <p className="description">
@@ -43,7 +45,8 @@ const OurTeam = () => {
                     <a href="#">Contact</a>
                 </div>
                 <div className="team-member">
-                    <img src="../images/TEAM.jpg" alt="Team Member 1" />
+                    <img src={`${process.env.PUBLIC_URL}/images/TEAM.jpg`} alt="Team Member 1" />
+
                     <h3>Shawqy Hussien</h3>
                     <p className="role">Front-End Developer</p>
                     <p className="description">
@@ -52,7 +55,8 @@ const OurTeam = () => {
                     <a href="#">Contact</a>
                 </div>
                 <div className="team-member">
-                    <img src="../images/TEAM.jpg" alt="Team Member 1" />
+                    <img src={`${process.env.PUBLIC_URL}/images/TEAM.jpg`} alt="Team Member 1" />
+
                     <h3>Shawqy Hussien</h3>
                     <p className="role">Front-End Developer</p>
                     <p className="description">
@@ -60,7 +64,7 @@ const OurTeam = () => {
                     </p>
                     <a href="#">Contact</a>
                 </div>
-                
+
             </div>
         </section>
     );
