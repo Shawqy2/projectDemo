@@ -2,7 +2,7 @@
   "name": "my-app-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Shawqy2.github.io/prjectDemo",
+  "homepage": "https://shawqy2.github.io/projectDemo",
   "dependencies": {
     "cra-template": "1.2.0",
     "my-app-demo": "file:",
